@@ -7,21 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B842AEB41DD73B0600940EC3 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842AEB31DD73B0600940EC3 /* SettingsController.swift */; };
+		B842AEB61DD744B500940EC3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B842AEB51DD744B500940EC3 /* Settings.bundle */; };
 		B85A11071DD717FA00DF2339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A11061DD717FA00DF2339 /* AppDelegate.swift */; };
-		B85A11091DD717FA00DF2339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A11081DD717FA00DF2339 /* ViewController.swift */; };
+		B85A11091DD717FA00DF2339 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A11081DD717FA00DF2339 /* HomePageController.swift */; };
 		B85A110C1DD717FA00DF2339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85A110A1DD717FA00DF2339 /* Main.storyboard */; };
 		B85A110E1DD717FA00DF2339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85A110D1DD717FA00DF2339 /* Assets.xcassets */; };
 		B85A11111DD717FA00DF2339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85A110F1DD717FA00DF2339 /* LaunchScreen.storyboard */; };
+		B85A11191DD7190D00DF2339 /* SendRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A11181DD7190D00DF2339 /* SendRequestController.swift */; };
+		B85A111B1DD719D900DF2339 /* PingingScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A111A1DD719D900DF2339 /* PingingScreenController.swift */; };
+		B85A111F1DD71A2F00DF2339 /* MatchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A111E1DD71A2F00DF2339 /* MatchScreenController.swift */; };
+		B85A11211DD71A4E00DF2339 /* WaitingScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A11201DD71A4E00DF2339 /* WaitingScreenController.swift */; };
+		B85A11231DD71A7400DF2339 /* LiveWalkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A11221DD71A7400DF2339 /* LiveWalkController.swift */; };
+		B85A11251DD71DE200DF2339 /* ReceivedRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85A11241DD71DE200DF2339 /* ReceivedRequestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1317F95DE957A0983CC4CC8C /* Pods-Walks With Friends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walks With Friends.release.xcconfig"; path = "Pods/Target Support Files/Pods-Walks With Friends/Pods-Walks With Friends.release.xcconfig"; sourceTree = "<group>"; };
+		B842AEB31DD73B0600940EC3 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		B842AEB51DD744B500940EC3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		B85A11031DD717FA00DF2339 /* Walks With Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Walks With Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85A11061DD717FA00DF2339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B85A11081DD717FA00DF2339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B85A11081DD717FA00DF2339 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
 		B85A110B1DD717FA00DF2339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B85A110D1DD717FA00DF2339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B85A11101DD717FA00DF2339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B85A11121DD717FA00DF2339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85A11181DD7190D00DF2339 /* SendRequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendRequestController.swift; sourceTree = "<group>"; };
+		B85A111A1DD719D900DF2339 /* PingingScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingingScreenController.swift; sourceTree = "<group>"; };
+		B85A111E1DD71A2F00DF2339 /* MatchScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchScreenController.swift; sourceTree = "<group>"; };
+		B85A11201DD71A4E00DF2339 /* WaitingScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingScreenController.swift; sourceTree = "<group>"; };
+		B85A11221DD71A7400DF2339 /* LiveWalkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveWalkController.swift; sourceTree = "<group>"; };
+		B85A11241DD71DE200DF2339 /* ReceivedRequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedRequestController.swift; sourceTree = "<group>"; };
+		C4B1A96CB0EE13E0CDC3C352 /* libPods-Walks With Friends.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Walks With Friends.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CD250529EDADD4C90878A9 /* Pods-Walks With Friends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walks With Friends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Walks With Friends/Pods-Walks With Friends.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,11 +54,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5066787C5E892BCD7F3A6B66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD250529EDADD4C90878A9 /* Pods-Walks With Friends.debug.xcconfig */,
+				1317F95DE957A0983CC4CC8C /* Pods-Walks With Friends.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53D9E757135D0E17722E67FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4B1A96CB0EE13E0CDC3C352 /* libPods-Walks With Friends.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B85A10FA1DD717FA00DF2339 = {
 			isa = PBXGroup;
 			children = (
+				B842AEB51DD744B500940EC3 /* Settings.bundle */,
 				B85A11051DD717FA00DF2339 /* Walks With Friends */,
 				B85A11041DD717FA00DF2339 /* Products */,
+				5066787C5E892BCD7F3A6B66 /* Pods */,
+				53D9E757135D0E17722E67FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +94,18 @@
 			isa = PBXGroup;
 			children = (
 				B85A11061DD717FA00DF2339 /* AppDelegate.swift */,
-				B85A11081DD717FA00DF2339 /* ViewController.swift */,
 				B85A110A1DD717FA00DF2339 /* Main.storyboard */,
+				B85A11081DD717FA00DF2339 /* HomePageController.swift */,
+				B85A11241DD71DE200DF2339 /* ReceivedRequestController.swift */,
 				B85A110D1DD717FA00DF2339 /* Assets.xcassets */,
 				B85A110F1DD717FA00DF2339 /* LaunchScreen.storyboard */,
 				B85A11121DD717FA00DF2339 /* Info.plist */,
+				B85A11181DD7190D00DF2339 /* SendRequestController.swift */,
+				B85A111A1DD719D900DF2339 /* PingingScreenController.swift */,
+				B85A111E1DD71A2F00DF2339 /* MatchScreenController.swift */,
+				B85A11201DD71A4E00DF2339 /* WaitingScreenController.swift */,
+				B85A11221DD71A7400DF2339 /* LiveWalkController.swift */,
+				B842AEB31DD73B0600940EC3 /* SettingsController.swift */,
 			);
 			path = "Walks With Friends";
 			sourceTree = "<group>";
@@ -71,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B85A11151DD717FA00DF2339 /* Build configuration list for PBXNativeTarget "Walks With Friends" */;
 			buildPhases = (
+				ED1544C1FFCD4AF47EDE40CC /* [CP] Check Pods Manifest.lock */,
 				B85A10FF1DD717FA00DF2339 /* Sources */,
 				B85A11001DD717FA00DF2339 /* Frameworks */,
 				B85A11011DD717FA00DF2339 /* Resources */,
+				1821206190214EF329108475 /* [CP] Embed Pods Frameworks */,
+				7C0A069BD27FB71E4E589E45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +145,7 @@
 				TargetAttributes = {
 					B85A11021DD717FA00DF2339 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DTB7WXVJ3G;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B842AEB61DD744B500940EC3 /* Settings.bundle in Resources */,
 				B85A11111DD717FA00DF2339 /* LaunchScreen.storyboard in Resources */,
 				B85A110E1DD717FA00DF2339 /* Assets.xcassets in Resources */,
 				B85A110C1DD717FA00DF2339 /* Main.storyboard in Resources */,
@@ -131,12 +182,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1821206190214EF329108475 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walks With Friends/Pods-Walks With Friends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C0A069BD27FB71E4E589E45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walks With Friends/Pods-Walks With Friends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1544C1FFCD4AF47EDE40CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B85A10FF1DD717FA00DF2339 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B85A11091DD717FA00DF2339 /* ViewController.swift in Sources */,
+				B842AEB41DD73B0600940EC3 /* SettingsController.swift in Sources */,
+				B85A111B1DD719D900DF2339 /* PingingScreenController.swift in Sources */,
+				B85A11251DD71DE200DF2339 /* ReceivedRequestController.swift in Sources */,
+				B85A111F1DD71A2F00DF2339 /* MatchScreenController.swift in Sources */,
+				B85A11211DD71A4E00DF2339 /* WaitingScreenController.swift in Sources */,
+				B85A11091DD717FA00DF2339 /* HomePageController.swift in Sources */,
+				B85A11191DD7190D00DF2339 /* SendRequestController.swift in Sources */,
+				B85A11231DD71A7400DF2339 /* LiveWalkController.swift in Sources */,
 				B85A11071DD717FA00DF2339 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +364,10 @@
 		};
 		B85A11161DD717FA00DF2339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CD250529EDADD4C90878A9 /* Pods-Walks With Friends.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DTB7WXVJ3G;
 				INFOPLIST_FILE = "Walks With Friends/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cheney8.Walks-With-Friends";
@@ -270,8 +378,10 @@
 		};
 		B85A11171DD717FA00DF2339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1317F95DE957A0983CC4CC8C /* Pods-Walks With Friends.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DTB7WXVJ3G;
 				INFOPLIST_FILE = "Walks With Friends/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cheney8.Walks-With-Friends";
@@ -299,6 +409,7 @@
 				B85A11171DD717FA00DF2339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
