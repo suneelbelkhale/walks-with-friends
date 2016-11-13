@@ -7,15 +7,31 @@
 //
 
 import UIKit
+import GoogleMaps
+import CoreLocation
 
 class MatchScreenController: UIViewController {
 
+    @IBOutlet weak var viewMap: GMSMapView!
+    
+    var lat: Double = 37.867534
+    var long: Double = -122.257326
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let camera: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: lat, longitude: long, zoom: 15.0)
+        viewMap.camera = camera
+        viewMap.isMyLocationEnabled = true
+        
+        
+        let marker = GMSMarker()
+        marker.position = CLLocationCoordinate2D(latitude: lat, longitude: long)
+        marker.title = "Unit 1"
+        marker.snippet = "Berkeley"
+        marker.map = viewMap
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

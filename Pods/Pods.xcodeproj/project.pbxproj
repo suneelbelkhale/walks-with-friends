@@ -7,35 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF9492B6F6CFE4F7F1F914E0E94036DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		BFA01D1AE0A12C84D8F4177F95E1AFA3 /* Pods-Walks With Friends-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5886B5830A45C29A8DE4EA0E25EF5C /* Pods-Walks With Friends-dummy.m */; };
+		92DEBC9B022B3A483836745E39BA98DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DB7EA39757CE834FCF8065664B4FAE23 /* Pods-Walks With Friends-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD697FE7A608C687FA54AE249304129 /* Pods-Walks With Friends-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8FB032DF36626213B96CEF11E44C8B6 /* Pods-Walks With Friends-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAA353778149B1E96C2E2797ABCD937 /* Pods-Walks With Friends-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07341633BB95BE58A861758CEA786973 /* Pods-Walks With Friends.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Walks With Friends.modulemap"; sourceTree = "<group>"; };
 		08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		0A5886B5830A45C29A8DE4EA0E25EF5C /* Pods-Walks With Friends-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Walks With Friends-dummy.m"; sourceTree = "<group>"; };
-		30FD2529986213FF5F3AA651C452DEC4 /* Pods-Walks With Friends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walks With Friends.debug.xcconfig"; sourceTree = "<group>"; };
-		547D15F42179D98C2E45C9FE0902EBC2 /* libPods-Walks With Friends.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Walks With Friends.a"; path = "libPods-Walks With Friends.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		66BE5E504505E29FB74FF8137E8C0156 /* Pods-Walks With Friends-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Walks With Friends-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D8299DF328C4353B1F7007898A7532E /* Pods-Walks With Friends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walks With Friends.release.xcconfig"; sourceTree = "<group>"; };
+		0DA72B0DF83A0566FC40433A6C7151FE /* Pods-Walks With Friends-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walks With Friends-frameworks.sh"; sourceTree = "<group>"; };
+		12032718C2221B30F268266D06CD472A /* Pods-Walks With Friends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walks With Friends.debug.xcconfig"; sourceTree = "<group>"; };
+		4F64E7B9DB79D43169B090734743886E /* Pods-Walks With Friends-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Walks With Friends-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FAAA5571F516B09D009B9FBC3C0820F /* Pods-Walks With Friends-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walks With Friends-resources.sh"; sourceTree = "<group>"; };
 		70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		7111BBDBD590D141CE540B437AE2685D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD697FE7A608C687FA54AE249304129 /* Pods-Walks With Friends-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Walks With Friends-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7B1DA94B89B7D9ECDEBA922D864A2ED /* Pods-Walks With Friends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Walks With Friends.release.xcconfig"; sourceTree = "<group>"; };
 		A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		A9C994C868E81C8B0AB2C6096D463D7C /* Pods-Walks With Friends-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Walks With Friends-acknowledgements.plist"; sourceTree = "<group>"; };
 		AFD4D1E144CCB4285706E577C2602A44 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		BFAA353778149B1E96C2E2797ABCD937 /* Pods-Walks With Friends-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Walks With Friends-dummy.m"; sourceTree = "<group>"; };
+		C7EEC44614C634E442DBC48E91AD679A /* Pods-Walks With Friends-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Walks With Friends-acknowledgements.plist"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D2485C9997DF7F1A8855BA76DD018A6F /* Pods-Walks With Friends-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walks With Friends-resources.sh"; sourceTree = "<group>"; };
-		E7C7646579BF9962225E61AAE6E1C03D /* Pods-Walks With Friends-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Walks With Friends-frameworks.sh"; sourceTree = "<group>"; };
+		EE2C652AADC34228D28F0EAC756AAD9F /* Pods_Walks_With_Friends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Walks_With_Friends.framework; path = "Pods-Walks With Friends.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88E2A6AB865C2A1EB845B27A14348FA /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32E71B1F491BCEFDFC25060C8AB440DF /* Frameworks */ = {
+		EB37FDB56D030E5A18296E30637555D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF9492B6F6CFE4F7F1F914E0E94036DF /* Foundation.framework in Frameworks */,
+				92DEBC9B022B3A483836745E39BA98DC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,10 +56,28 @@
 			path = GooglePlaces;
 			sourceTree = "<group>";
 		};
-		15C664FAD1613E82E1CB246D6AF2F91B /* Targets Support Files */ = {
+		205EE9BDF42303A43CBA9B208C3CC60D /* Pods-Walks With Friends */ = {
 			isa = PBXGroup;
 			children = (
-				6D20A91EFCBE149D0B86095816FA8E51 /* Pods-Walks With Friends */,
+				7111BBDBD590D141CE540B437AE2685D /* Info.plist */,
+				07341633BB95BE58A861758CEA786973 /* Pods-Walks With Friends.modulemap */,
+				4F64E7B9DB79D43169B090734743886E /* Pods-Walks With Friends-acknowledgements.markdown */,
+				C7EEC44614C634E442DBC48E91AD679A /* Pods-Walks With Friends-acknowledgements.plist */,
+				BFAA353778149B1E96C2E2797ABCD937 /* Pods-Walks With Friends-dummy.m */,
+				0DA72B0DF83A0566FC40433A6C7151FE /* Pods-Walks With Friends-frameworks.sh */,
+				5FAAA5571F516B09D009B9FBC3C0820F /* Pods-Walks With Friends-resources.sh */,
+				7FD697FE7A608C687FA54AE249304129 /* Pods-Walks With Friends-umbrella.h */,
+				12032718C2221B30F268266D06CD472A /* Pods-Walks With Friends.debug.xcconfig */,
+				A7B1DA94B89B7D9ECDEBA922D864A2ED /* Pods-Walks With Friends.release.xcconfig */,
+			);
+			name = "Pods-Walks With Friends";
+			path = "Target Support Files/Pods-Walks With Friends";
+			sourceTree = "<group>";
+		};
+		21AFC3D88B3C4DED0432050F1DFC6F0D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				205EE9BDF42303A43CBA9B208C3CC60D /* Pods-Walks With Friends */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -68,14 +90,6 @@
 			);
 			name = GoogleMaps;
 			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		280BC14A8A535E73047844EB14580A19 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				547D15F42179D98C2E45C9FE0902EBC2 /* libPods-Walks With Friends.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		385FA015FFB9210F372AB1078B856AAB /* Pods */ = {
@@ -120,19 +134,12 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		6D20A91EFCBE149D0B86095816FA8E51 /* Pods-Walks With Friends */ = {
+		68DBC2C0AC2B6596FA832F8815FF62D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66BE5E504505E29FB74FF8137E8C0156 /* Pods-Walks With Friends-acknowledgements.markdown */,
-				A9C994C868E81C8B0AB2C6096D463D7C /* Pods-Walks With Friends-acknowledgements.plist */,
-				0A5886B5830A45C29A8DE4EA0E25EF5C /* Pods-Walks With Friends-dummy.m */,
-				E7C7646579BF9962225E61AAE6E1C03D /* Pods-Walks With Friends-frameworks.sh */,
-				D2485C9997DF7F1A8855BA76DD018A6F /* Pods-Walks With Friends-resources.sh */,
-				30FD2529986213FF5F3AA651C452DEC4 /* Pods-Walks With Friends.debug.xcconfig */,
-				6D8299DF328C4353B1F7007898A7532E /* Pods-Walks With Friends.release.xcconfig */,
+				EE2C652AADC34228D28F0EAC756AAD9F /* Pods_Walks_With_Friends.framework */,
 			);
-			name = "Pods-Walks With Friends";
-			path = "Target Support Files/Pods-Walks With Friends";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -149,8 +156,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				385FA015FFB9210F372AB1078B856AAB /* Pods */,
-				280BC14A8A535E73047844EB14580A19 /* Products */,
-				15C664FAD1613E82E1CB246D6AF2F91B /* Targets Support Files */,
+				68DBC2C0AC2B6596FA832F8815FF62D2 /* Products */,
+				21AFC3D88B3C4DED0432050F1DFC6F0D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,13 +196,25 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9A3621FA2CF05EAA7E604D5B282443B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7EA39757CE834FCF8065664B4FAE23 /* Pods-Walks With Friends-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		F9FB053785801DC612413050EE18EE8C /* Pods-Walks With Friends */ = {
+		8565632D6421EC099487A6D6980833F0 /* Pods-Walks With Friends */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7547F5DF718204B36366DC294619D9DC /* Build configuration list for PBXNativeTarget "Pods-Walks With Friends" */;
+			buildConfigurationList = 0239E63B1BD633E2CC8CB233815BF779 /* Build configuration list for PBXNativeTarget "Pods-Walks With Friends" */;
 			buildPhases = (
-				2486D3D1A7B42F1CDA1E978D8CC5C5B1 /* Sources */,
-				32E71B1F491BCEFDFC25060C8AB440DF /* Frameworks */,
+				D08F139DBEF1447ED82DB43A9391BE80 /* Sources */,
+				EB37FDB56D030E5A18296E30637555D7 /* Frameworks */,
+				9A3621FA2CF05EAA7E604D5B282443B1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -203,8 +222,8 @@
 			);
 			name = "Pods-Walks With Friends";
 			productName = "Pods-Walks With Friends";
-			productReference = 547D15F42179D98C2E45C9FE0902EBC2 /* libPods-Walks With Friends.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = EE2C652AADC34228D28F0EAC756AAD9F /* Pods_Walks_With_Friends.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -223,72 +242,96 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 280BC14A8A535E73047844EB14580A19 /* Products */;
+			productRefGroup = 68DBC2C0AC2B6596FA832F8815FF62D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9FB053785801DC612413050EE18EE8C /* Pods-Walks With Friends */,
+				8565632D6421EC099487A6D6980833F0 /* Pods-Walks With Friends */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2486D3D1A7B42F1CDA1E978D8CC5C5B1 /* Sources */ = {
+		D08F139DBEF1447ED82DB43A9391BE80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA01D1AE0A12C84D8F4177F95E1AFA3 /* Pods-Walks With Friends-dummy.m in Sources */,
+				F8FB032DF36626213B96CEF11E44C8B6 /* Pods-Walks With Friends-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9227C2BAEF82AA60E0ED0D2C41B9CFEA /* Release */ = {
+		7BE568BDF5F663588A6460DBA9787E23 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D8299DF328C4353B1F7007898A7532E /* Pods-Walks With Friends.release.xcconfig */;
+			baseConfigurationReference = 12032718C2221B30F268266D06CD472A /* Pods-Walks With Friends.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		C5054511854E01028B1B360A9BE4BC68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30FD2529986213FF5F3AA651C452DEC4 /* Pods-Walks With Friends.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Walks With Friends/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Walks With Friends/Pods-Walks With Friends.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Pods_Walks_With_Friends;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		8D52C30A610FC6B677799299DA3EDEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B1DA94B89B7D9ECDEBA922D864A2ED /* Pods-Walks With Friends.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Walks With Friends/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Walks With Friends/Pods-Walks With Friends.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Walks_With_Friends;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -377,20 +420,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0239E63B1BD633E2CC8CB233815BF779 /* Build configuration list for PBXNativeTarget "Pods-Walks With Friends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE568BDF5F663588A6460DBA9787E23 /* Debug */,
+				8D52C30A610FC6B677799299DA3EDEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
 				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7547F5DF718204B36366DC294619D9DC /* Build configuration list for PBXNativeTarget "Pods-Walks With Friends" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5054511854E01028B1B360A9BE4BC68 /* Debug */,
-				9227C2BAEF82AA60E0ED0D2C41B9CFEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
