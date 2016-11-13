@@ -304,6 +304,7 @@
                     <navigationItem key="navigationItem" id="0UN-1t-WhY"/>
                     <connections>
                         <outlet property="availableFriends" destination="wEO-Qf-dsO" id="ZTC-HK-7Jh"/>
+                        <outlet property="findFriendsButton" destination="8pu-Vg-Hti" id="rAo-PM-7X4"/>
                         <outlet property="searchBarView" destination="h3I-Je-M84" id="IKW-NX-8QD"/>
                         <outlet property="searchDisplayController" destination="xDH-JZ-knW" id="YBw-RI-5Me"/>
                         <outlet property="selectedOutputLabel" destination="pVJ-pi-78y" id="9sK-mu-Jhz"/>
@@ -478,6 +479,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="goButton" destination="Eoh-iv-4ea" id="YHQ-xs-GPB"/>
                         <outlet property="viewMap" destination="3iU-Zy-R3R" id="res-J8-ihs"/>
                     </connections>
                 </viewController>
@@ -551,6 +553,7 @@
                     </view>
                     <connections>
                         <outlet property="countdownLabel" destination="wDQ-B7-Moe" id="8mI-pf-2xQ"/>
+                        <outlet property="startButton" destination="9vF-u3-E7f" id="zP1-rX-5aV"/>
                         <outlet property="viewMap" destination="oGz-PZ-Xyy" id="Slf-Db-5vi"/>
                     </connections>
                 </viewController>
@@ -709,7 +712,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="declineButton" destination="VL6-SF-PHD" id="TIN-ez-YwK"/>
                         <outlet property="distanceLabel" destination="jKM-y4-Ygv" id="Bes-qY-eXI"/>
+                        <outlet property="goButton" destination="lTK-1q-1sh" id="hLQ-bh-jPi"/>
                         <outlet property="nameLabel" destination="GR5-U5-X7a" id="EDq-z4-uPF"/>
                         <outlet property="timeLabel" destination="oLJ-Nu-NUk" id="oQh-l9-ZHE"/>
                         <outlet property="viewMap" destination="UFQ-Y0-YRq" id="Iqp-vP-9sP"/>
@@ -1197,8 +1202,8 @@
         <image name="SettingsTabIcon" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="MXK-Vm-gX8"/>
-        <segue reference="fUJ-eY-Exh"/>
+        <segue reference="1re-hc-mTA"/>
+        <segue reference="Mgc-VF-6xj"/>
         <segue reference="8eY-pd-qdP"/>
     </inferredMetricsTieBreakers>
 </document>

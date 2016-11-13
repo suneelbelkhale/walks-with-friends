@@ -11,6 +11,7 @@ import GooglePlaces
 
 class SendRequestController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIPickerViewDataSource, UIPickerViewDelegate{
 
+    @IBOutlet weak var findFriendsButton: UIButton!
     @IBOutlet weak var selectedTime: UIPickerView!
     @IBOutlet weak var selectedOutputLabel: UILabel!
     var friendList = [[String]]()
@@ -60,6 +61,12 @@ class SendRequestController: UIViewController, UITableViewDelegate, UITableViewD
         // When UISearchController presents the results view, present it in
         // this view controller, not one further up the chain.
         self.definesPresentationContext = true
+        
+        findFriendsButton.backgroundColor = UIColor.black
+        findFriendsButton.layer.cornerRadius = 5
+        findFriendsButton.layer.borderWidth = 2
+        findFriendsButton.layer.borderColor = UIColor.black.cgColor
+        findFriendsButton.setTitleColor(UIColor.white, for: .normal)
         
     }
     
@@ -193,7 +200,6 @@ class SendRequestController: UIViewController, UITableViewDelegate, UITableViewD
         }
         
     }
-    
     
     /*
      // MARK: - Navigation

@@ -41,7 +41,7 @@
 		B85A111E1DD71A2F00DF2339 /* MatchScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchScreenController.swift; sourceTree = "<group>"; };
 		B85A11201DD71A4E00DF2339 /* WaitingScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingScreenController.swift; sourceTree = "<group>"; };
 		B85A11221DD71A7400DF2339 /* LiveWalkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveWalkController.swift; sourceTree = "<group>"; };
-		B85A11241DD71DE200DF2339 /* ReceivedRequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedRequestController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
+		B85A11241DD71DE200DF2339 /* ReceivedRequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceivedRequestController.swift; sourceTree = "<group>"; };
 		B87D8EE71DD8569500F5A0F5 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		C7CD250529EDADD4C90878A9 /* Pods-Walks With Friends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walks With Friends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Walks With Friends/Pods-Walks With Friends.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */

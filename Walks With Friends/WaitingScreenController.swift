@@ -12,6 +12,7 @@ import CoreLocation
 
 class WaitingScreenController: UIViewController {
     
+    @IBOutlet weak var startButton: UIButton!
     //need to pass in both peoples' locations
     //place ___1
     //place ___2
@@ -38,6 +39,12 @@ class WaitingScreenController: UIViewController {
         marker.title = "Unit 1"
         marker.snippet = "Berkeley"
         marker.map = viewMap
+        
+        startButton.backgroundColor = UIColor.clear
+        startButton.layer.cornerRadius = 5
+        startButton.layer.borderWidth = 2
+        startButton.layer.borderColor = UIColor.black.cgColor
+        startButton.setTitleColor(UIColor.black, for: .normal)
         // Do any additional setup after loading the view.
     }
 

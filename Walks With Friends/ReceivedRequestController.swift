@@ -17,6 +17,8 @@ class ReceivedRequestController: UIViewController {
     
     @IBOutlet weak var viewMap: GMSMapView!
     
+    @IBOutlet weak var goButton: UIButton!
+    @IBOutlet weak var declineButton: UIButton!
     var dist: String = "0.0"
     var name: String = "<Name>"
     var time: Int = 15
@@ -39,6 +41,19 @@ class ReceivedRequestController: UIViewController {
         marker.title = "Unit 1"
         marker.snippet = "Walk time: 12 min"
         marker.map = viewMap
+        
+        goButton.backgroundColor = UIColor.clear
+        goButton.layer.cornerRadius = 5
+        goButton.layer.borderWidth = 2
+        goButton.layer.borderColor = UIColor.purple.cgColor
+        goButton.setTitleColor(UIColor.purple, for: .normal)
+        
+        declineButton.backgroundColor = UIColor.clear
+        declineButton.layer.cornerRadius = 5
+        declineButton.layer.borderWidth = 2
+        declineButton.layer.borderColor = UIColor.purple.cgColor
+        declineButton.setTitleColor(UIColor.purple, for: .normal)
+        
         // Do any additional setup after loading the view.
     }
     

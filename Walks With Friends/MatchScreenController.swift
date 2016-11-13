@@ -14,6 +14,7 @@ class MatchScreenController: UIViewController {
 
     @IBOutlet weak var viewMap: GMSMapView!
     
+    @IBOutlet weak var goButton: UIButton!
     var lat: Double = 37.867534
     var long: Double = -122.257326
     
@@ -29,6 +30,12 @@ class MatchScreenController: UIViewController {
         marker.title = "Unit 1"
         marker.snippet = "Berkeley"
         marker.map = viewMap
+        
+        goButton.backgroundColor = UIColor.clear
+        goButton.layer.cornerRadius = 5
+        goButton.layer.borderWidth = 2
+        goButton.layer.borderColor = UIColor.purple.cgColor
+        goButton.setTitleColor(UIColor.purple, for: .normal)
         // Do any additional setup after loading the view.
     }
     

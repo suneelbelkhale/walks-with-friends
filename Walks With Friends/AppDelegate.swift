@@ -43,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
     GMSServices.provideAPIKey("AIzaSyBGi1UBs07wTrvUJcv0lJqwvku8zNcwJwI");
-    GMSPlacesClient.provideAPIKey("AIzaSyBGi1UBs07wTrvUJcv0lJqwvku8zNcwJwI")
+    GMSPlacesClient.provideAPIKey("AIzaSyBa-PFzs2ftVVdOk0bCh573Ehyk2myCQr8")
         
         return true
     }
@@ -88,15 +88,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             //present(UIViewController, animated: Bool, completion: (() -> Void)? = nil)
             let refreshAlert = UIAlertController(title: "Go to the Waiting Screen", message: "", preferredStyle: UIAlertControllerStyle.alert)
             
-            refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-                //{ (action: UIAlertAction!) in
+            refreshAlert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
 //                guard let vc = self.window?.rootViewController?.storyboard?.instantiateViewController(withIdentifier:"WaitingScreenController")
 //                    else{
 //                        print("BAD")
 //                        return
 //                }
 //                self.window?.rootViewController?.present(vc, animated: true, completion: nil)
-//            }))
+            }))
             
             self.window?.rootViewController?.present(refreshAlert, animated: true, completion: nil)
             
